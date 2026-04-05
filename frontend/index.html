@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Record Management System</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="overlay"></div>
+  <div class="container">
+    <header class="header">
+      <div class="logo-container">
+        <img src="logo.png" alt="Logo" class="app-logo">
+        <h1>Student Record Management System</h1>
+      </div>
+      <p>Manage your students seamlessly with premium glassmorphism design.</p>
+    </header>
+
+    <main>
+      <section class="add-student-section">
+        <form id="student-form" class="glass-form">
+          <input type="hidden" id="student-id">
+          <h2 id="form-title">Add New Student</h2>
+          <span id="form-error" class="error-msg"></span>
+          <div class="form-group">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" required placeholder="Jane Doe">
+          </div>
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" required placeholder="jane@example.com">
+          </div>
+          <div class="form-group">
+            <label for="course">Course</label>
+            <input type="text" id="course" required placeholder="e.g. Mathematics, Biology">
+          </div>
+          <button type="submit" id="submit-btn" class="btn-primary">Add Student</button>
+        </form>
+      </section>
+
+      <section class="students-list-section">
+        <div class="list-header-row">
+          <h2>Enrolled Students</h2>
+          <input type="text" id="search-input" class="search-bar" placeholder="Search by name or course...">
+        </div>
+        <div id="students-container" class="students-grid">
+          <!-- Students will be rendered here dynamically -->
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
