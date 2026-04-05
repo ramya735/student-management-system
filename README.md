@@ -1,4 +1,4 @@
-
+<img width="1773" height="848" alt="image" src="https://github.com/user-attachments/assets/ab0e43ed-ffd3-4d0c-a79b-26f52ddba0fa" />
 # 🎓 Student Management System
 
 A simple and efficient **Student Management System** built using **Node.js, Express, and MongoDB**.  
@@ -78,11 +78,7 @@ http://localhost:3000
 
 ---
 
-## 📸 Screenshots
 
-(Add your project screenshots here)
-
----
 
 ## 📌 Future Enhancements
 
